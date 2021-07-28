@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="小米官网直营小米公司旗下所有产品，包括小米手机系列小米11 Ultra、MIX FOLD，Redmi 红米系列Redmi Note 9、Redmi K40 Pro，小米电视、笔记本、米家智能家居等，同时提供小米客户服务及售后支持." />
+    <meta name="keywords" content="小米,redmi,小米11 Ultra,Redmi Note 9,小米MIX Alpha,小米商城" />
+    <title>小米商城 - 小米11 Ultra、Redmi K40 Pro、MIX FOLD，小米电视官方网站</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./font/css/all.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <style>
+        body {
+            font: 14/1.2 Helvetica Neue, Helvetica, Arial, Microsoft Yahei, Hiragino Sans GB, Heiti SC, WenQuanYi Micro Hei, sans-serif;
+        }
+
+        .nav {
+            width: 100%;
+            height: 40px;
+            line-height: 40px;
+            background-color: #333;
+        }
+
+        .box1{
+            float: left;
+            padding: 0px 2px;
+            position: relative;
+        }
+        .box2{
+            float: right;
+        }
+        .nav>.box1>div{
+            float: left;
+        }
+        .nav>.box2>div{
+            float: right;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: #B0B0B0;
+        }
+        .nav a:hover{
+            color:#fff;
+
+        }
+
+        .nav .nav1 {
+            padding-left: 100px;
+        }
+        .nav div{
+            padding: 0px 3px;
+        }
+        .box2:last-child {
+            padding-right: 100px;
+        }
+        .line{
+            color: #424242;
+        }
+        .fas{
+            color: #B0B0B0;
+            margin: 0px 0px;
+        }
+        .fas:hover{
+            color: red;
+        }
+        /* .nav a:hover{
+            color: red;
+        } */
+        .nav .shopping:hover{
+            color: red;
+            
+        }      
+        .app .qrcode{
+            display: none;
+            height: 148px;
+            /* height: 0; */
+            overflow: hidden;
+            width: 124px;
+            line-height: 1;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+            position: relative;
+            left: -30px;  
+            transition:bottom 3s;
+        }
+        .app:hover .qrcode{
+            display: block;
+            transition: 0.5s;
+        }
+        .app .qrcode img{
+            width: 90px;
+            margin: 17px;
+            margin-bottom: 10px;
+        }
+        .app .qrcode span{
+            color: black;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="box1">
+            <div class="nav1"><a href="https://www.baidu.com/" target="_blank">小米商城</a></div>
+            <div class="line">|</div>
+            <div><a href="javascript:;">MIUI</a></div>
+            <div class="line">|</div>
+            <div><a href="javascript:;">loT</a></div>
+            <div class="line">|</div>
+            <div><a href="javascript:;">云服务</a></div>
+            <div class="line">|</div>
+            <div><a href="javascript:;">天星数科</a></div>
+            <div class="line">|</div>
+            <div><a href="javascript:;">有品</a></div>
+            <div class="line">|</div>
+            <div><a href="javascript:;">小爱开放平台</a></div>
+            <div class="line">|</div>
+            <div><a href="javascript:;">资质证照</a></div>
+            <div class="line">|</div>
+            <div><a href="javascript:;">协议规则</a></div>
+            <div class="line">|</div>
+            <div class="app">
+                <a href="javascript:;">
+                    下载app
+                    <div class="qrcode">
+                        <img src="./image/downloadapp.png" alt="下载app">
+                        <span>小米商城app</span>
+                    </div>                
+                </a>
+            </div>
+            <div class="line">|</div>
+            <div><a href="javascript:;">智能生活</a></div>
+            <div class="line">|</div>
+            <div><a href="javascript:;">Select Location</a></div>           
+        </div>
+        <div class="box2">            
+            <div class="nav-wrappe"><a class="shopping" href="javascript:;">购物车(0)</a></div>
+            <div  class="fas fa-shopping-cart"></div>
+            <div class="line">|</div>
+            <div><a href="javascript:;">消息通知</a></div>
+            <div class="line">|</div>
+            <div ><a href="javascript:;">注册</a></div>
+            <div class="line">|</div>
+            <div ><a href="javascript:;">登录</a></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
